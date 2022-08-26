@@ -4,7 +4,7 @@ metadata:
   name: hello-world-service
 spec:
   selector:
-    app: hello-world-deployment
+    app: hello-world
   ports:
     - port: 3000
       targetPort: 3000
